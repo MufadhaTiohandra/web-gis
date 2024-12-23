@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect Trailing Slashes...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Rewrite URLs of the form "index.php/example/view"
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+# Allow access to GeoJSON files
+<FilesMatch "\.geojson$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+# Ensure proper MIME type for GeoJSON
+AddType application/json .geojson
