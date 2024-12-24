@@ -22,6 +22,10 @@
                                 <a class="nav-link click-scroll" href="<?=base_url() ?>maps">Maps</a>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="<?=base_url() ?>profile">Profile</a>
+                            </li>
+
                         </ul>
 
                     </div>

@@ -67,14 +67,6 @@ var baseLayers = {
 
 
 var groupedOverlays = {
-  "Peta Dasar":{
-    'Ibu Kota Provinsi':prov,
-    'Jaringan Sungai':sungai,
-    'Provinsi':provin
-  },
-  "Peta Khusus":{
-    'Fasilitas Kesehatan':faskes
-  },
   "Web-GIS":{
     'Laundry':laundry,
     'Jalan Ciputat':jalan_ciputat,
@@ -278,8 +270,8 @@ $.getJSON("<?=base_url()?>template/dist/rsu.geojson",function(data){
   $.getJSON('<?=base_url()?>template/dist/laundry_ciputat.geojson', function(data) {
     if (data) {
         var ratIcon = L.icon({  
-            iconUrl: '<?=base_url()?>template/dist/img/marker.png',  
-            iconSize: [25, 25]  
+            iconUrl: '<?=base_url()?>template/dist/img/laundry.png',  
+            iconSize: [30, 30]  
         });  
         // Create markers from GeoJSON
         L.geoJson(data, {  

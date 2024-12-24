@@ -19,4 +19,8 @@ class WebGis extends BaseController
     public function maps():string{
         return view('templates/maps');
     }
+
+    public function profile():string{
+        return view('templates/profile');
+    }
 }

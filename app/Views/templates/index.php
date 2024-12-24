@@ -46,7 +46,7 @@ https://templatemo.com/tm-583-festava-live
 
                 <div class="video-wrap">
                     <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                        <source src="<?=base_url() ?>template/dist/video/video.mp4" type="video/mp4">
+                        <source src="<?=base_url() ?>template/dist/video/laundry.mp4" type="video/mp4">
 
                         Your browser does not support the video tag.
                     </video>
