@@ -62,7 +62,7 @@
             </div>
 
             <div class="profile-info">
-                <div class="profile-label">User Name</div>
+                <div class="profile-label">Name</div>
                 <div class="profile-value">Mufadha Tiohandra</div>
             </div>
 
@@ -76,8 +76,8 @@
             <div class="divider"></div>
 
             <div class="profile-info">
-                <div class="profile-label">Location</div>
-                <div class="profile-value">Jakarta, Indonesia</div>
+                <div class="profile-label">University</div>
+                <div class="profile-value">UIN Syarif Hidayatullah Jakarta</div>
             </div>
 
             <div class="divider"></div>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maps-Webgis</title>
-    <?= $this->include('templates/header'); ?>
+    <?= $this->include('templates/header'); ?> 
 </head>
 <body>
     <?= $this->include('templates/navbar'); ?>
@@ -270,7 +270,7 @@ $.getJSON("<?=base_url()?>template/dist/rsu.geojson",function(data){
   $.getJSON('<?=base_url()?>template/dist/laundry_ciputat.geojson', function(data) {
     if (data) {
         var ratIcon = L.icon({  
-            iconUrl: '<?=base_url()?>template/dist/img/laundry.png',  
+            iconUrl: '<?=base_url()?>assets/img/laundry_logo.png',  
             iconSize: [30, 30]  
         });  
         // Create markers from GeoJSON
